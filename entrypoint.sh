@@ -22,4 +22,6 @@ while true; do
     sleep 5
 done
 
-symfony server:start --no-tls --allow-http --port=8000
+chmod -R 777 var/cache var/log
+
+php-fpm
